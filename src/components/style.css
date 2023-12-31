@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap");
+
+body {
+  text-align: center;
+}
+
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 300px;
+  height: 300px;
+  border-radius: 32px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  position: relative;
+  top: -350px;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.titleCloseBtn button:hover {
+  font-size: 21px;
+  transition: 0.5s;
+}
+
+.modalContainer .body {
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer {
+  display: flex;
+  flex: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  /* border: none; */
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
+
+.tipInpt {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 1px;
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.tipPerc {
+  font-size: 20px;
+}
+
+.header {
+  font-family: "Rouge Script", cursive;
+  font-size: 5em;
+}
+
+.add,
+.reset {
+  padding: 5px;
+  margin: 10px;
+  /* border: none; */
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+#rst {
+  background-color: crimson;
+}
+
+.selects {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 1px;
+  margin: 5px;
+  background-color: white;
+}
